@@ -1,0 +1,62 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Heathen Brew Coffee",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 75,
+  "Items": [
+    {
+      "ClassName": "HH_CoffeeCup",
+      "MaxPriceThreshold": 20,
+      "MinPriceThreshold": 10,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 75,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "HH_CoffeeCup_Bambi",
+      "MaxPriceThreshold": 30,
+      "MinPriceThreshold": 15,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 75,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "HH_CoffeeCup_Bandit",
+        "HH_CoffeeCup_Zombie",
+        "HH_CoffeeCup_Heathen"
+      ]
+    },
+    {
+      "ClassName": "HH_Coffeebag_Bambi",
+      "MaxPriceThreshold": 60,
+      "MinPriceThreshold": 45,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 75,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "HH_Coffeebag_Bandit",
+        "HH_Coffeebag_Zombie",
+        "HH_Coffeebag_Heathen"
+      ]
+    },
+    {
+      "ClassName": "EspressoMachine_Kit",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 75,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 75,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
